@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+
+# Local MLflow tracking
+mlflow.db
+mlflow.db-*
+mlruns/
+
+# Local monitoring outputs and demo data
+data/monitoring/
+data/raw/
+data/processed/
+
+# Generated model artifacts
+models/candidate_model.pkl
+models/retraining_report.json
+models/model_comparison.csv
+models/best_model_info.json
+
+# Local logs
+*.log
+
+# Windows
+Thumbs.db
+
+# Local-only files
+run_pipeline.bat
+guide.txt
+
+data/
